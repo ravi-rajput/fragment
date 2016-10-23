@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fragmnt1.MainActivity" >
+
+  <View
+      android:id="@+id/bb"
+      android:layout_width="match_parent"
+      android:layout_height="90dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      tools:ignore="ObsoleteLayoutParam" />
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+android:background="#000000"
+     tools:ignore="UselessParent" >
+
+      
+     
+     <ImageButton
+         android:id="@+id/imageButton1"
+         android:layout_width="50dp"
+         android:layout_height="30dp"
+         android:src="@drawable/h1"
+         tools:ignore="ContentDescription" />
+
+     <ImageButton
+         android:id="@+id/imageButton2"
+         android:layout_width="70dp"
+         android:layout_height="30dp"
+         
+         android:src="@drawable/c1"
+         tools:ignore="ContentDescription" />
+
+     <ImageButton
+         android:id="@+id/imageButton3"
+         android:layout_width="70dp"
+         android:layout_height="30dp"
+         android:src="@drawable/a1"
+         tools:ignore="ContentDescription" />
+
+     <ImageButton
+         android:id="@+id/imageButton4"
+         android:layout_width="70dp"
+         android:layout_height="30dp"
+         android:src="@drawable/l1"
+         tools:ignore="ContentDescription" />
+     
+     <ImageButton
+         android:id="@+id/imageButton6"
+         android:layout_width="70dp"
+         android:layout_height="30dp"
+         android:src="@drawable/call"
+         tools:ignore="ContentDescription" />
+
+ </LinearLayout>
+  
+        <RelativeLayout
+            android:id="@+id/india1"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:background="@drawable/b24" >
+          
+        </RelativeLayout>
+  
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        tools:ignore="UselessParent" >
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff9933"
+            android:text="Click Here For Registration form"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            tools:ignore="HardcodedText" >
+
+        </Button>
+        
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registered Office:-Kiran Kapoor(Director), J-142, Shivalik Nagar, B.H.E.L, Ranipur, Haridwar"
+            android:textColor="#000000"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.20"
+            android:text="Contact Number : +91-9319967771, 9319967772, 9319967773"
+            android:textColor="#000000"
+            tools:ignore="HardcodedText,InefficientWeight" />
+  
+
+ 
+</LinearLayout>
+</LinearLayout>

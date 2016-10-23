@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+      <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="ScrollViewSize" >
+    
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.09"
+        android:background="#000000"
+        android:text="   RAIR INSTITUTE is one of the leading computer training institutes in Najibabad. Global Talent Development Company, building skilled manpower pool for Industry requirements. The company which was set up in 1996, to help the nascent IT industry overcome its human resource challenges, has today grown to be amongst leading talent development companies offering learning solutions to Individuals, Enterprises and Institutions across the region.SK INFOTECH?s training solutions in IT, Business Process Outsourcing, Banking, Finance and Insurance, Executive Management Education, and Communication and Professional Life Skills, touch many learners every year. S K INFOTECH?s expertise in learning content development, training delivery and education process management make it the most preferred training partner, worldwide."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        tools:ignore="HardcodedText,InefficientWeight" />
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
